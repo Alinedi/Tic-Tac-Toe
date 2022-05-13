@@ -31,7 +31,7 @@ $(document).ready(function(){
     if(d1!=''&&d2!=''&&d3!=''&&d4!=''&&d5!=''&&d6!=''&&d7!=''&&d8!=''&&d9!=''){
       countTie++;
       $(".won").empty();
-      $(".won").append("<h3>The game is Tie</h3>");
+      $(".won").append("<h3>The Game Tied</h3>");
       sound('wrong');
       $(".tie-score").empty();
       $(".tie-score").append(countTie);
